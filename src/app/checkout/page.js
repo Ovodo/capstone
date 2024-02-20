@@ -135,17 +135,6 @@ const Checkout = () => {
       {showConfirmationModal && (
         <ConfirmationModal closeModal={closeConfirmationModal} />
       )}
-      <div className='w-[20vw] border border-green-500 relative h-[20vw]'>
-        <img
-          width={300}
-          height={300}
-          className='border border-red-600'
-          src={
-            "https://media.licdn.com/dms/image/D4D03AQHSv9u_4pMRcg/profile-displayphoto-shrink_800_800/0/1665957539034?e=1714003200&v=beta&t=1NIm5npP1xJw_ViXsS3zrtOylM4heEvA_BYEB1thsh8"
-          }
-          alt='sjs'
-        />
-      </div>
     </div>
   );
 };
