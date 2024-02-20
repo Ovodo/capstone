@@ -1,6 +1,5 @@
 "use client";
-import React, { useContext, useEffect } from "react";
-import { formatPrice } from "@/components/ProductDisplay";
+import React from "react";
 import { useRouter } from "next/navigation";
 import { useDispatch, useSelector } from "react-redux";
 import { clearCart } from "@/store/slice-reducers/UserReducer";
