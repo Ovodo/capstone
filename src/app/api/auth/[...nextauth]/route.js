@@ -71,9 +71,6 @@ export const authOptions = {
         user.gender = profileItems.find(
           (item) => typeof item.gender === "string"
         )?.gender;
-        user.gender = profileItems.find(
-          (item) => typeof item.gender === "string"
-        )?.gender;
         user.surname = profileItems.find(
           (item) => typeof item.familyName === "string"
         )?.familyName;
